@@ -1,0 +1,35 @@
+body{
+    background-color: #fff !important;
+}
+.metro {
+    color: white !important;
+}
+
+.metro a {
+    text-decoration: none !important;
+    color: white !important;
+
+}
+
+.metro a:hover {
+    text-decoration: none !important;
+    color: white !important;
+}
+
+.banner {
+    min-height: 45%;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-image: url("/img/banner.jpg");
+    margin: 20px auto;
+}
+
+.navbar-brand img{
+    height: 45px;
+    width: auto;
+}
+.navbar-brand {
+    padding-top: 5px !important;
+}
