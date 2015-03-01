@@ -6,7 +6,29 @@
 
 .navbar-default {
     border-radius: 0px !important;
+    border:none !important;
+    background-color: #94B373 !important;
 }
+
+.nav {
+    color: #FFF !important;
+}
+
+.nav a {
+    color: #FFF !important;
+}
+
+.dropdown-menu a {
+    color: #16161D !important;
+}
+
+.active > a{
+    background-color: #D1E5BC !important;
+}
+.open > a{
+    background-color: #D1E5BC !important;
+}
+
 .navbar-brand {
     padding: 10px !important;
 }
@@ -22,8 +44,78 @@
     width: 150px;
     height: 150px;
     background-color: green;
+    -webkit-box-shadow: 0px 0px 0px 20px rgba(0,0,0,0.7);
+    -moz-box-shadow: 0px 0px 0px 20px rgba(0,0,0,0.7);
+    box-shadow: 0px 0px 0px 20px rgba(0,0,0,0.7);
 }
 .content {
     position: relative;
     margin: 0 auto;
 }
+
+.circle-cell {
+    min-height: 150px !important;
+
+}
+
+/*.circle {
+    width: 50%;
+    height:0;
+    padding-bottom: 50%;
+    -moz-border-radius: 50%; 
+    -webkit-border-radius: 50%; 
+    border-radius: 50%;
+    background: #4679BD; 
+}
+*/
+/*.circle-text {*/
+    /*width:100%;*/
+/*}*/
+.circle-text {
+    content: "";
+    display: block;
+    width: 100%;
+    height:0;
+    padding-bottom: 100%;
+    background: #94B373; 
+    -moz-border-radius: 50%; 
+    -webkit-border-radius: 50%; 
+    border-radius: 50%;
+    transition: background-color 0.3s, box-shadow 1s, width 0.3s, padding-bottom 0.3s;
+    -webkit-box-shadow: 0px 0px 2px 20px rgba(112,191,101,0.25);
+    -moz-box-shadow: 0px 0px 2px 20px rgba(112,191,101,0.25);
+    box-shadow: 0px 0px 2px 20px rgba(112,191,101,0.25);
+}
+
+.circle-small {
+    float: left;
+    position: relative;
+    width: 30% !important;
+    padding-bottom: 30% !important;
+}
+
+.sub-circles {
+    min-width: 300%;
+    padding-top: 40px;
+
+}
+
+
+.circle-text:hover {
+    background-color: #86C543;
+    width: 110%;
+    padding-bottom: 110%;
+    -webkit-box-shadow: 0px 0px 1px 20px rgba(0,0,0,0.0);
+    -moz-box-shadow: 0px 0px 1px 20px rgba(0,0,0,0.0);
+    box-shadow: 0px 0px 1px 20px rgba(0,0,0,0.0);
+}
+.circle-text div {
+    float:left;
+    width:100%;
+    padding-top:50%;
+    line-height:1em;
+    margin-top:-0.5em;
+    text-align:center;
+    color:white;
+}
+
