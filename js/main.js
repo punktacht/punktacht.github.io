@@ -1,7 +1,12 @@
-$(".circle-big").click(function () {
-    $(".circle-cell").each(function () {
-        $(this).find('.sub-circles').addClass('hidden');
+$().ready(function () {
+    $(".circle").each(function () {
+        $(this).find("ul").addClass("hidden");
     });
-    $(this).parent().find('.sub-circles').toggleClass('hidden');
 
+    $(".circle").on("mouseenter", function () {
+        $(this).find("ul").toggleClass("hidden");
+    });
+    $(".circle").on("mouseleave", function () {
+        $(this).find("ul").toggleClass("hidden");
+    });
 });

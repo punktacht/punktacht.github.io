@@ -1,143 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>punktacht.life</title>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>punktacht.life</title>
 
-    <!-- Bootstrap -->
-    <link rel="stylesheet" href="css/main.css">
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="css/main.css">
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-  </head>
-  <body>
-    <nav class="navbar navbar-default">
-      <div class="container-fluid">
-        <!-- Brand and toggle get grouped for better mobile display -->
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="#">
-            <img src="/img/brand_small.png" alt="punktacht.life">
-          </a>
+      <![endif]-->
+    </head>
+    <body>
+      <div class="container jumbotron page-wrapper">
+        <div class="big-image">
+          <img src="/img/brand2.png" alt="">
         </div>
-
-        <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-          <ul class="nav navbar-nav">
-            <li class="active"><a href="#">Home <span class="sr-only">(current)</span></a></li>
-            <li><a href="#">Zu meiner Person</a></li>
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Meine Arbeit <span class="caret"></span></a>
-              <ul class="dropdown-menu" role="menu">
-                <li><a href="autogenes-training.html">Autogenes Training</a></li>
-                <li><a href="#">Brain Gym</a></li>
-                <li><a href="#">Entspannungstraining für Kinder</a></li>
-                <li><a href="#">Kinesiologie</a></li>
-                <li><a href="#">Mut und Stärke</a></li>
-                <li><a href="#">Stressmanagement</a></li>
-                <li><a href="#">PMR</a></li>
-                <li><a href="#">Touch for Health</a></li>
-              </ul>
-            </li>
-          </ul>
-            <ul class="nav navbar-nav navbar-right">
-              <li><a href="#">AGB</a></li>
-              <li><a href="/impressum.html">Impressum</a></li>
-              <li><a href="#">Kontakt</a></li>
+        <div class="container-fluid">
+          <div onClick="window.location.href = '/willkommen.html';" class="circle willkommen"><p class="circle-text">Willkommen</p>
+          </div>
+          <div class="circle kinesiologie"><p class="circle-text">Kinesiologie</p>
+            <ul>
+              <li ><a href="#"> Brain Gym</a></li>
+              <li><a href="#"> Touch for Health </a></li>
+              <li><a href="#"> Mut und Stärke </a></li>
             </ul>
-        </div><!-- /.navbar-collapse -->
-      </div><!-- /.container-fluid -->
-    </nav>
-    <div class="jumbotron">
-      <div class="container">
-        <h1>Leben bewegt...</h1>
-          <center> 
-            <p>
-              Mein Wunsch ist es, Sie auf Ihrem Weg zu mehr Glück und Entspannung zu unterstützen. <br>
-              Mein Ziel ist es, das Ändern zu leben. <br>
-              Herzlich Willkommen auf meiner Homepage.
-            </p>
-        </center>
+          </div>
+          <br>
+          <div class="circle entspannung"><p class="circle-text">Entspannungspädagogik</p>
+            <ul>
+              <li><a href="#"> Autogenes Training </a></li>
+              <li><a href="#"> Progressive Muskelentspannung </a></li>
+              <li><a href="#"> Entspannungstrainer für Kinder </a></li>
+            </ul>
+          </div>
+          <div class="circle arbeit"><p class="circle-text">Meine Arbeit</p>
+            <ul>
+              <li><a href="#"> Entpsannungstraining </a></li>
+              <li><a href="#"> Problemlösetraining </a></li>
+              <li><a href="#"> Genusstraining </a></li>
+              <li><a href="#"> Zeitmanagement </a></li>
+              <li><a href="#"> Motivationstraining </a></li>
+            </ul>
+          </div>
+          <div class="circle stress"><p class="circle-text">Stressmanagement</p></div>
+          <div class="circle ueber"><p class="circle-text">Über mich</p></div>
+        </div>
       </div>
-    </div>
-    <div class="container">
-      <div class="circle-cell row">
-        <div class="col-sm-2 col-sm-offset-1 circle-cell">
-            <a href="#" class="circle-text circle-big"><div>Über mich</div></a>
-            <div class="sub-circles hidden">
-            </div>
-          </div>
-          <div class="col-sm-2 circle-cell">
-            <div class="circle-text circle-big"><div>Kinesiologie</div></div>
-            <div class="sub-circles hidden">
-              <div class="circle-text circle-small">
-                <div>Brain Gym</div>
-              </div>
-              <div class="circle-text circle-small">
-                <div>Touch for Health</div>
-              </div>
-              <div class="circle-text circle-small">
-                <div>Mut und Stärke</div>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-2 circle-cell">
-            <div class="circle-text circle-big"><div>Meine Arbeit</div></div>
-            <div class="sub-circles hidden">
-            </div>
-          </div>
-          <div class="col-sm-2 circle-cell">
-            <div class="circle-text circle-big"><div>Entspannungs-<br>pädagogik</div></div>
-            <div class="sub-circles hidden">
-              <div class="circle-text circle-small">
-                <div>Autogenes Training</div>
-              </div>
-              <div class="circle-text circle-small">
-                <div>Progressive Muskelentspannung</div>
-              </div>
-              <div class="circle-text circle-small">
-                <div>Entspannungstrainer für Kinder</div>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-2 circle-cell">
-            <div class="circle-text circle-big"><div>Stressmanagement</div></div>
-            <div class="sub-circles hidden">
-              <div class="circle-text circle-small">
-                <div>Entspannungstraining</div>
-              </div>
-              <div class="circle-text circle-small">
-                <div>Problemlösetrianing</div>
-              </div>
-              <div class="circle-text circle-small">
-                <div>Genusstraining</div>
-              </div>
-              <div class="circle-text circle-small">
-                <div>Zeitmanagement</div>
-              </div>
-              <div class="circle-text circle-small">
-                <div>Motivationstraining</div>
-              </div>
-            </div>
-          </div>
+      <div class="navigation container-fluid">
+        <a href="/kontakt.html">kontakt</a>
       </div>
-    </div>
-    </div>
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/bootstrap.min.js"></script>
-    <script src="/js/main.js"></script>
-  </body>
-</html>
+      <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+      <!-- Include all compiled plugins (below), or include individual files as needed -->
+      <script src="js/bootstrap.min.js"></script>
+      <script src="/js/main.js"></script>
+    </body>
+    </html>
