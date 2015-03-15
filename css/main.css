@@ -114,9 +114,16 @@
     height: 150px !important;
 }
 
-.label-circle {
-    margin-left: 113%;
+.label-circle-right {
+    margin-left: 95%;
     top: -235px;
+    width: 150px !important;
+    height: 150px !important;
+}
+
+.label-circle-left {
+    margin-bottom: 20px;
+    margin-left: -50px;
     width: 150px !important;
     height: 150px !important;
 }
@@ -128,6 +135,7 @@
     margin-top: 42% !important;
     color: #000;
     font-size: 25px;
+    padding: 0px !important;
 }
 
 .big-image {
@@ -144,15 +152,16 @@
 
 
 .page-wrapper {
-    padding: 0 !important;
     margin-top: -80px;
+    padding-top: 0px !important;
+    padding-bottom: 150px !important;
 }
 
 .bildbunt {
     top: -312px;
     position: relative;
     display: inline-flex;
-    margin-left: 100%
+    margin-left: 85%
 }
 
 .bildbunt img {
@@ -161,7 +170,62 @@
     border-radius: 50%;
 }
 
-.jumbotron {
+.bildueber {
+    float: left;
+    margin-left: -80px;
 
 }
 
+.bildueber img {
+    border-radius: 50%;
+    height: 380px;
+    width: auto;
+}
+
+.jumbotron p, h1{
+    padding-left: 20px;
+}
+
+.jumbotron {
+    margin-bottom: 0px !important;
+}
+
+.navigation {
+    height: 60px;
+    color: white;
+    width: 100%;
+    padding: 0px 48px 0px 48px !important;
+}
+
+.links {
+    height: 100%;
+    display: inline-block;
+    padding-top: 10px;
+}
+
+.links a {
+    margin-right: 20px;
+    text-decoration: none;
+    color: #16161D;
+    font-size: 25px;
+    transition: color 0.3s;
+}
+
+.links a:hover {
+    text-decoration: none;
+    color: #94B373;
+}
+
+.bar {
+    background-color: #94B373;
+    height: 100%;
+    display: inline-flex;
+    float: right;
+    margin-right: -48px;
+}
+
+.uebertext {
+    margin-right: 80px;
+    padding-left: 280px;
+    text-align: justify;
+}
