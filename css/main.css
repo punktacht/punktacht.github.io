@@ -229,3 +229,7 @@
     padding-left: 280px;
     text-align: justify;
 }
+
+.newContainer {
+    width: 1000px !important;
+}
